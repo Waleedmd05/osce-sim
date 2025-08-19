@@ -1,26 +1,21 @@
-streamlit>=1.37
-python-dotenv>=1.0
-pandas>=2.2
-numpy>=1.26
-pillow>=10.0
-requests>=2.31
-# Core
+
 streamlit>=1.37
 numpy>=1.26
 torch>=2.0
 torchvision>=0.15
 Pillow>=10.0
 requests>=2.31
+pandas>=2.2
 
-# Visualization
+
 matplotlib>=3.8
 scikit-image>=0.22
 
-# Env handling
+
 python-dotenv>=1.0
 
-# Torch X-ray Vision (specific package name on PyPI)
+
 torchxrayvision>=1.1.7
 
-# Grad-CAM
+
 pytorch-grad-cam>=1.5.0
