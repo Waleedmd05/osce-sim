@@ -10,7 +10,7 @@
 #   • Programmatic intercept for tests (ECG/CXR/BNP/Trop/LFTs/Serology/CRP/WCC/Exam/Vitals)
 #   • Natural SP opening line; never asks student for results
 # -----------------------------------------------------------------------------
-
+import dotenv
 import os, json, time, re
 from typing import Dict, Any, List
 from pathlib import Path
