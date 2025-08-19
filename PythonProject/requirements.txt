@@ -1,12 +1,21 @@
+
 streamlit>=1.37
 numpy>=1.26
-torch>=2.0
-torchvision>=0.15
+pandas>=2.2
 Pillow>=10.0
 requests>=2.31
-pandas>=2.2
+
+
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+
 matplotlib>=3.8
 scikit-image>=0.22
+
+
 python-dotenv>=1.0
+
 torchxrayvision>=1.1.7
 pytorch-grad-cam>=1.5.0
